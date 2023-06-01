@@ -1,0 +1,56 @@
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #6c757d;
+    height: 100px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+  }
+
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  </style>
+  
+  <div class="topnav">
+    <div class="topnav-centered">
+      <a href="#home" class="active">Adference Challenge</a>
+    </div>
+  </div>
+  <div class="container">
+    <button class="button" class='btn btn-secondary btn-lg' (click)="start()">Start</button>
+  </div>
+  <router-outlet></router-outlet>
