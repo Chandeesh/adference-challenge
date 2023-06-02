@@ -36,6 +36,7 @@ dependencies {
 	testImplementation 'org.testng:testng:7.1.0'
 	testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.2.1.RELEASE'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest', version: '2.2.1.RELEASE'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.1'
 }
 
 // In this section you declare where to find the dependencies of your project
